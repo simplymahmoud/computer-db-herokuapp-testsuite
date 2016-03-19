@@ -1,0 +1,104 @@
+Test Cases of test04_update.py:
+
+TEST ID: CDB13
+Use Case: Update a Computer
+Test Name: test013_update_computer_by_company
+Purpose: Test update company with another value
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- change the company field value.
+2- validate the computer updated successfully.
+Expected results: update company with another value should succeed
+
+TEST ID: CDB14
+Use Case: Update a Computer
+Test Name: test014_update_computer_name
+Purpose: Test update computer name with different vaild values
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- change the computer field value by (string, long, numeric, special chars).
+2- validate the computer updated successfully.
+Expected results: update computer name with different vaild values should succeed
+
+TEST ID: CDB15
+Use Case: Update a Computer
+Test Name: test015_update_computer_name_to_empty
+Purpose: Test update after clearing computer name
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- change the computer field value by empty computer name.
+2- validate error message "Computer name\nRequired".
+Expected results: empty computer name raised expected error message
+
+TEST ID: CDB16
+Use Case: Update a Computer
+Test Name: test016_update_computer_without_changes
+Purpose: Test update computer without changes
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- don't change any field value.
+2- validate the computer updated successfully.
+Expected results: update company without changes should succeed
+
+TEST ID: CDB17
+Use Case: Update a Computer
+Test Name: test017_update_computer_canceled
+Purpose: Test cancel update without changes
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- don't change any field value.
+2- cancel update.
+3- validate warning message.
+Expected results: cancel update computer with no changes will raise warning
+
+TEST ID: CDB18
+Use Case: Update a Computer
+Test Name: test018_cancel_update_with_data
+Purpose: Test cancel update after change fields with valid/invalid values
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- change fields with valid/invalid values.
+2- cancel update.
+3- validate warning message.
+Expected results: cancel update computer with valid/invalid values will raise warning
+
+TEST ID: CDB19
+Use Case: Update a Computer
+Test Name: test019_update_computer_by_introduced_date
+Purpose: Test update introduced date with different valid values
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- change introduced date with different valid values.
+2- validate the computer updated successfully.
+Expected results: update introduced date with different valid values should succeed
+
+TEST ID: CDB20
+Use Case: Update a Computer
+Test Name: test020_update_computer_by_discontinued_date
+Purpose: Test update discontinued date with different valid values
+Prerequisite: Create new computer and access this computer page
+Steps: 
+1- change discontinued date with different valid values.
+2- validate the computer updated successfully.
+Expected results: update discontinued date with different valid values should succeed
+
+TEST ID: CDB21
+Use Case: Update a Computer
+Test Name: test021_update_computer_by_invalid_introduced_date
+Purpose: Test update computer with different invalid introduced date values
+Prerequisite: Create new computer and access this computer page
+Steps:
+1- use invalid introduced date (non_exists_date, wrong_format, zeros, wrong_delimiter, chars, string, number, wrong_date).
+2- validate error message "Introduced date\nDate ('yyyy-MM-dd')".
+Expected results: use invalid introduced date raised expected error message
+
+TEST ID: CDB22
+Use Case: Update a Computer
+Test Name: test022_update_computer_by_invalid_discontinued_date
+Purpose: Test update computer with different invalid discontinued date values
+Prerequisite: Create new computer and access this computer page
+Steps:
+1- use invalid discontinued date (non_exists_date, wrong_format, zeros, wrong_delimiter, chars, string, number, wrong_date).
+2- validate error message "Discontinued date\nDate ('yyyy-MM-dd')".
+Expected results: use invalid discontinued date raised expected error message
+

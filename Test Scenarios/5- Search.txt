@@ -1,0 +1,34 @@
+Test Cases of test05_search.py:
+
+TEST ID: CDB23
+Use Case: Search a Computer
+Test Name: test023_search_computer_by_name_field
+Purpose: Test search computer by different valid names
+Prerequisite: Access computers home search page
+Steps: 
+1- add new computer by valid name (string, long, special chars)
+2- validate the new computer added successfully.
+3- search for this computer using name.
+4- validate the computer found in search successfully.
+Expected results: search computer by different valid names should succeed
+
+TEST ID: CDB24
+Use Case: Search a Computer
+Test Name: test024_search_navigate_next_previous_page
+Purpose: Test search navigate with next and previous pages
+Prerequisite: Access computers home search page
+Steps: 
+1- press next link multiple time.
+2- press previous link multiple time.
+Expected results: search navigate with next and previous pages should succeed
+
+TEST ID: CDB25
+Use Case: Search a Computer
+Test Name: test025_search_non_existing
+Purpose: Test search for a computer with non existing name
+Prerequisite: Access computers home search page
+Steps: 
+1- search using non existing name.
+2- no search results should be returned.
+Expected results: search for a computer with non existing name return expected output
+

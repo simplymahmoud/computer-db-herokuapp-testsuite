@@ -1,0 +1,47 @@
+List of GUI checks:
+-------------------
+Alignment 	
+All elements on the page should be aligned properly
+
+Justifications	
+All numeric values should be right justified
+
+Spaces	
+All elements on the page should be provided with enough spaces with labels
+
+Tip Tool	
+All toll tips should be short meaningful sentences
+
+Title	
+Page title should have meaningful and descriptive title
+
+Header	
+Page header should be displayed properly
+
+Footer	
+Page footer should be displayed properly
+
+Logo	
+Page logo should be displayed properly
+
+Clicking	
+By clicking on any text field the mouse pointer should show cursor
+
+Scrolling	
+Scrolling should enabled only when needed
+
+Drop-Down	
+Drop-down element should display with sorted values, readable with suitable size, and disable typing
+
+Input	
+Input data filled by the users should be intact when having errors
+
+Busy	
+Sand watch should be displayed when busy
+
+Links	
+All links on the page should be valid and blue highlighted
+
+Sorting	
+All table fields should be able to be sorted by clicking
+

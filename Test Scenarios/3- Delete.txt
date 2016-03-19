@@ -1,0 +1,25 @@
+Test Cases of test03_delete.py:
+
+TEST ID: CDB11
+Use Case: Delete a Computer
+Test Name: test011_delete_existing_computer
+Purpose: Test delete existing computer
+Prerequisite: Access add new computer page
+Steps: 
+1- add new computer.
+2- delete the new computer by name.
+3- validate new computer deleted successfully
+Expected results: Delete a computer 
+
+TEST ID: CDB12
+Use Case: Delete a Computer
+Test Name: test012_access_deleted_computer_page
+Prerequisite: Access add new computer page
+Purpose: Test access deleted computer page
+Steps: 
+1- add new computer.
+2- get the new computer by name.
+3- delete it.
+4- access the machine url.
+Expected results: accessing deleted computer page nothing to display.
+

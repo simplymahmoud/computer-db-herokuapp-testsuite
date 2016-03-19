@@ -1,0 +1,26 @@
+Test Cases of test02_get.py:
+
+TEST ID: CDB9
+Use Case: Get a Computer
+Test Name: test009_get_existing_computer
+Purpose: Test add new computer with all available company names values
+Prerequisite: Access add new computer page
+Steps: 
+1- add new computer with vaild names (normal, long, special chars).
+2- get the new computer by name.
+3- validate get new computer by name successfully
+Expected results: All valid (computer names) should succeed
+
+TEST ID: CDB10
+Use Case: Get a Computer
+Test Name: test010_get_non_existing_computer
+Prerequisite: Access add new computer page
+Purpose: Test get non existing computer
+Steps: 
+1- add new computer.
+2- get the new computer by name.
+3- delete it.
+4- get the new computer again.
+5- validate text message "Nothing to display".
+Expected results: get non existing computer display expected text message
+

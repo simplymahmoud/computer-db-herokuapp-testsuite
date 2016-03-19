@@ -1,0 +1,94 @@
+Test Cases of test01_add.py:
+
+TEST ID: CDB1
+Use Case: Add New Computer
+Test Name: test001_add_computer_with_all_valid_company_field
+Purpose: Test add new computer with all available company names values
+Prerequisite: Access add new computer page
+Steps: 
+1- get all available options for company names drop down menu.
+2- add new computer with each company name.
+3- validate the new computer added successfully
+Expected results: All valid company names should succeed
+
+TEST ID: CDB2
+Use Case: Add New Computer
+Test Name: test002_add_computer_by_name_field
+Prerequisite: Access add new computer page
+Purpose: Test add new computer with different computer name values
+Steps: 
+1- use different valid computer name (normal, long, numeric, special chars).
+2- add new computer with each computer name.
+3- validate the new computer added successfully.
+Expected results: All valid (company names) should succeed
+
+TEST ID: CDB3
+Use Case: Add New Computer
+Test Name: test003_add_computer_by_empty_name_field
+Purpose: Test add new computer with empty name
+Prerequisite: Access add new computer page
+Steps:
+1- use empty computer name.
+2- add new computer.
+3- validate error message "Computer name\nRequired".
+Expected results: empty computer name raised expected error message
+
+TEST ID: CDB4
+Use Case: Add New Computer
+Test Name: test004_cancel_add_computer_by_empty_fields
+Purpose: Test cancel add new computer with all fields empty
+Prerequisite: Access add new computer page
+Steps:
+1- use empty with all fields.
+2- cancel computer.
+3- validate warning message.
+Expected results: cancel add new computer with all fields empty will raise warning
+
+TEST ID: CDB5
+Use Case: Add New Computer
+Test Name: test005_cancel_add_computer_with_data_field
+Purpose: Test cancel add new computer with all fields populated with valid/invalid data
+Prerequisite: Access add new computer page
+Steps:
+1- use valid/invalid data with all fields.
+2- cancel computer.
+3- validate warning message.
+Expected results: cancel add new computer with all fields with valid/invalid data will raise warning
+
+TEST ID: CDB6
+Use Case: Add New Computer
+Test Name: test006_add_computer_with_valid_introduced_discontinued_date_field
+Purpose: Test add new computer with valid introduced/discontinued dates
+Prerequisite: Access add new computer page
+Steps:
+1- use valid introduced/discontinued dates.
+2- add new computer.
+3- validate the new computer added successfully.
+Expected results: All valid introduced/discontinued dates should succeed
+
+TEST ID: CDB7
+Use Case: Add New Computer
+Test Name: test007_add_computer_with_invalid_introduced_date_field
+Purpose: Test add new computer with different invalid introduced date values
+Prerequisite: Access add new computer page
+Steps:
+1- use invalid introduced date (non_exists_date, wrong_format, zeros, wrong_delimiter, chars, string, number, wrong_date).
+2- add new computer.
+3- validate error message "Introduced date\nDate ('yyyy-MM-dd')".
+Expected results: use invalid introduced date raised expected error message
+
+TEST ID: CDB8
+Use Case: Add New Computer
+Test Name: test008_add_computer_with_invalid_discontinued_date_field
+Purpose: Test add new computer with different invalid discontinued date values
+Prerequisite: Access add new computer page
+Steps:
+1- use invalid discontinued date (non_exists_date, wrong_format, zeros, wrong_delimiter, chars, string, number, wrong_date).
+2- add new computer.
+3- validate error message "Discontinued date\nDate ('yyyy-MM-dd')".
+Expected results: use invalid discontinued date raised expected error message
+
+
+
+
+

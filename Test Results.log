@@ -1,0 +1,74 @@
+mahmoud@mahmoud-ThinkPad-T530:~/repos/backbase_assignment$ nosetests -xv testsuite/test*
+CDB1: Test add new computer with all available company names values ... ok
+test002_add_computer_by_name_field_0_normal_name (testsuite.test01_add.TestAdd) ... ok
+test002_add_computer_by_name_field_1_long_name (testsuite.test01_add.TestAdd) ... ok
+test002_add_computer_by_name_field_2_numeric_name (testsuite.test01_add.TestAdd) ... ok
+test002_add_computer_by_name_field_3_special_chars_name (testsuite.test01_add.TestAdd) ... ok
+CDB3: Test add new computer with empty name ... ok
+CDB4: Test cancel add new computer with all fields empty ... ok
+test005_cancel_add_computer_with_data_field_0_valid (testsuite.test01_add.TestAdd) ... ok
+test005_cancel_add_computer_with_data_field_1_invalid (testsuite.test01_add.TestAdd) ... ok
+CDB6: Test add new computer with valid introduced/discontinued dates ... ok
+test007_add_computer_with_invalid_introduced_date_field_0_non_exists_date (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_1_wrong_format (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_2_zeros (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_3_wrong_delimiter (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_4_chars (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_5_string (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_6_number (testsuite.test01_add.TestAdd) ... ok
+test007_add_computer_with_invalid_introduced_date_field_7_wrong_date (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_0_non_exists_date (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_1_wrong_format (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_2_zeros (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_3_wrong_delimiter (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_4_chars (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_5_string (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_6_number (testsuite.test01_add.TestAdd) ... ok
+test008_add_computer_with_invalid_discontinued_date_field_7_wrong_date (testsuite.test01_add.TestAdd) ... ok
+test009_get_existing_computer_0_normal_name (testsuite.test02_get.TestGet) ... ok
+test009_get_existing_computer_1_long_name (testsuite.test02_get.TestGet) ... ok
+test009_get_existing_computer_2_special_chars_name (testsuite.test02_get.TestGet) ... ok
+CDB10: Test get non existing computer ... ok
+CDB11: Test delete existing computer ... ok
+CDB12: Test access deleted computer page ... ok
+CDB13: Test update company with another value ... ok
+test014_update_computer_name_0_string (testsuite.test04_update.TestUpdate) ... ok
+test014_update_computer_name_1_long (testsuite.test04_update.TestUpdate) ... ok
+test014_update_computer_name_2_number (testsuite.test04_update.TestUpdate) ... ok
+test014_update_computer_name_3_special_chars (testsuite.test04_update.TestUpdate) ... ok
+CDB15: Test update after clearing computer name ... ok
+CDB16: Test update computer without changes ... ok
+CDB17: Test cancel update without changes ... ok
+test018_cancel_update_with_data_0_valid (testsuite.test04_update.TestUpdate) ... ok
+test018_cancel_update_with_data_1_invalid (testsuite.test04_update.TestUpdate) ... ok
+test019_update_computer_by_introduced_date_0_empty (testsuite.test04_update.TestUpdate) ... ok
+test019_update_computer_by_introduced_date_1_valid_format (testsuite.test04_update.TestUpdate) ... ok
+test020_update_computer_by_discontinued_date_0_empty (testsuite.test04_update.TestUpdate) ... ok
+test020_update_computer_by_discontinued_date_1_valid_format (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_0_non_exist_date (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_1_wrong_format (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_2_zeros (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_3_wrong_delimiter (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_4_chars (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_5_text (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_6_number (testsuite.test04_update.TestUpdate) ... ok
+test021_update_computer_by_invalid_introduced_date_7_wrong_date (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_0_non_exist_date (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_1_wrong_format (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_2_zeros (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_3_wrong_delimiter (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_4_chars (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_5_text (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_6_number (testsuite.test04_update.TestUpdate) ... ok
+test022_update_computer_by_invalid_discontinued_date_7_wrong_date (testsuite.test04_update.TestUpdate) ... ok
+test023_search_computer_by_name_field_0_normal_name (testsuite.test05_search.TestSearch) ... ok
+test023_search_computer_by_name_field_1_long_name (testsuite.test05_search.TestSearch) ... ok
+test023_search_computer_by_name_field_2_special_chars_name (testsuite.test05_search.TestSearch) ... ok
+CDB24: Test search navigate with next and previous pages ... ok
+CDB25: Test search for a computer with non existing name ... ok
+
+----------------------------------------------------------------------
+Ran 67 tests in 412.179s
+
+OK
+
