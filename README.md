@@ -12,3 +12,15 @@ Documentation
 -------------
 Check file (GUI check.txt) for GUI checks, folder (Test Scenarios) for Test Scenarios, and file (Test Results.log) for Test Results.
 
+Install Python Packages:
+------------------------
+Note That: you may use virtual env for this step
+```
+computer-db-herokuapp-testsuite$> pip install -r req.txt
+```
+
+Rung the tests
+---------------
+```
+computer-db-herokuapp-testsuite$> nosetests -xv testsuite
+```
