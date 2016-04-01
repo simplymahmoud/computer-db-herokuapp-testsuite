@@ -1,5 +1,5 @@
 # computer-db-herokuapp-testsuite
-My code to fulfil backbase assignment 
+Python testsuite for simple online computer database 
 
 Requirements:
 -------------
